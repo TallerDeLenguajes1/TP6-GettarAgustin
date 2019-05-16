@@ -21,6 +21,10 @@ namespace GETTAR_AGUSTIN_EJ3
             Console.Write($"El seno es: {Math.Sin(Convert.ToSingle(num))}\n\n");
             Console.Write($"El coseno es: {Math.Cos(Convert.ToSingle(num))}\n\n");
             Console.Write($"La parte entera de un float: {Math.Round(num)}\n\n");
+            Console.Write("Ingrese dos numeros \n");
+            int[] n = { int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()) };
+            Console.Write($"El MAX ES : {n.Max()} y EL MIN ES : {n.Min()}");
+
             Console.ReadKey();
         }
     }
